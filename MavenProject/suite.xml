@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite >
+<suite name="Suite">
+
+  <test name="TestOne">
+    <classes>
+      <class name="testNG.BeforeAndAfterClass"/>
+      <class name="testNG.BeforeAndAfterMethodConcept"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestTwo">
+    <classes>
+      <class name="testNG.BeforeAndAfterClass"/>
+      <class name="testNG.BeforeAndAfterMethodConcept"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

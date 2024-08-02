@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite >
+<suite name="Suite">
+
+	<parameter name="URL"
+		value="http://primusbank.qedgetech.com/" />
+
+	<parameter name="usernameID" value="txtuId" />
+
+	<parameter name="passwordID" value="txtPword" />
+
+	<parameter name="username" value="Admin" />
+
+	<parameter name="password" value="Admin" />
+
+	<test name="test">
+
+		<classes>
+			<class name="parameterizationConcept.SuiteLevel" />
+		</classes>
+
+	</test>
+
+</suite> <!-- Suite -->

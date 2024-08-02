@@ -1,0 +1,16 @@
+
+#Browser
+browser = firefox
+
+#URL
+url = http://primusbank.qedgetech.com/ 
+
+#Locators
+userlocator = //input[@name='txtuId']
+passwordlocater = //input[@name='txtPword']
+loginlocator = //input[@name='login']
+
+#Data
+username = Admin
+password = Admin
+

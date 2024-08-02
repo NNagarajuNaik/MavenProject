@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-27T19:11:44 IST" name="Default suite" finished-at="2024-07-27T19:12:36 IST" duration-ms="52140">
+    <groups>
+    </groups>
+    <test started-at="2024-07-27T19:11:44 IST" name="Default test" finished-at="2024-07-27T19:12:36 IST" duration-ms="52140">
+      <class name="demo.Demo">
+        <test-method signature="handlingWindow()[pri:0, instance:demo.Demo@53045c6c]" started-at="2024-07-27T19:11:44 IST" name="handlingWindow" finished-at="2024-07-27T19:12:36 IST" duration-ms="52060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingWindow -->
+      </class> <!-- demo.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

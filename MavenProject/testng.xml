@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite >
+
+
+<suite name="BeforeAndAfterTest">
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG.BeforeAndAfterClass"/>
+      <class name= "testNG.BeforeAndAfterMethodConcept"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+</suite> <!-- BeforeAndAfterTest -->

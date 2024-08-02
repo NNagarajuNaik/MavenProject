@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite >
+<suite name="Suite"   data-provider-thread-count="4">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="dataProviderConcept.ParallelExecution"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

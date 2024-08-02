@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite >
+<suite name="Suite">
+
+	<test  name="smoke">
+
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="groupsExecution.Class1" />
+			<class name="groupsExecution.Class3" />
+			<class name="groupsExecution.Class2" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="sanity">
+
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="groupsExecution.Class1" />
+			<class name="groupsExecution.Class3" />
+			<class name="groupsExecution.Class2" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test name="Test">
+
+		<groups>
+			<run>
+				<exclude name="smoke" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="groupsExecution.Class1" />
+			<class name="groupsExecution.Class3" />
+			<class name="groupsExecution.Class2" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
